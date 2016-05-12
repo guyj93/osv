@@ -8,10 +8,11 @@
             "type": "direct-dir",
             "path": "${OSV_BASE}/mgmt/"
         },
-    "repositories": [
-        "${OSV_BASE}/apps",
-        "${OSV_BASE}/modules"
-    ]
+        "repositories": [
+            "${OSV_BASE}/apps",
+            "${OSV_BASE}/modules",
+            "${OSV_BASE}/../my-osv-apps"
+        ]
    },
    "default": [ "cloud-init", "httpserver" ]
 }
